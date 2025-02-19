@@ -1,4 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Menambahkan izin akses kamera -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <!-- Jika perlu akses penyimpanan (untuk hasil scan) -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:label="inventori_bea"
         android:name="${applicationName}"
